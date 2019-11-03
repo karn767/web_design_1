@@ -1,0 +1,74 @@
+.<!DOCTYPE html>
+<html>
+<head>
+	<title>assignment 4</title>
+</head>
+<body>
+<div class="outerbox">
+<form>
+<fieldset>
+<legend>Application Form</legend>
+<div class="firstcontainer">
+	<p class="correct"> full name</p>
+	<p class="correct">email</p> 
+	<p class="correct">Gender</p>
+	<p class="correct">Nationality</p>
+	<p class="correct">Skills</p> <br>
+	<p class="correct">Post Applying for</p>
+	<p class="correct">Upload Resume</p> <br>
+	<p class="correct">Paste your resume</p>
+</div>
+<div class="secondcontainer">
+	<input type="text" name="Full Name" value="">
+		  <br>
+		  <input type="text" name="Email" value="">
+		  <br>
+		  <input type="radio" name="gender" value="male"> Male
+		  <input type="radio" name="gender" value="female"> Female
+		  <br>
+		   <select>
+				<option value="Indian">Indian</option>
+				<option value="Canadian">Canadian</option>
+				<option value="American">American</option>
+				<option value="Chinese">Chinese</option>
+		  </select>
+		  <br>
+		  <input type="checkbox" name="Asp.net" value="Asp.net">Asp.net
+                <input type="checkbox" name="jQuery" value="jQuery">jQuery
+                <br>
+                <input type="checkbox" name="MVC" value="MVC">MVC
+                <input type="checkbox" name="Sql Server" value="Sql Server">Sql Server
+                <br>
+                <input type="radio" name="Trainee" value="Trainee" checked> Trainee
+		        <input type="radio" name="Software Engineer" value="Software Engineer"> Software Engineer
+		        <br>
+		        <input type="radio" name="Team Leader" value="Team Leader" checked> Team Leader
+		        <input type="radio" name="Project Manager" value="Project Manager" checked> Project Manager
+		        <br>
+		        <input type="file" name="myFile"> 
+		        <br>
+		        <textarea rows="4" cols="40"></textarea>
+		        <br>
+		        <input type="checkbox">Notify me the status via email
+		        <br>
+		        <input type="radio" > I agree to terms & conditions
+		        <br>
+		        <input type="submit" value="Submit">
+		        <input type="reset" value="reset">	
+		        </div>	  
+
+
+
+</fieldset>
+</form>
+</div>
+<style>
+input{margin:10px;}
+*{box-sizing: border-box; margin: 0;padding: 0}
+.outerbox{width: 30%;float: left;height: 70%}
+.firstcontainer{width: 30%;float: left;height: 100%}
+.secondcontainer{width: 60%;float: left;height: 100%}
+.correct{margin: 16; padding: 0}
+</style>
+</body>
+</html>
