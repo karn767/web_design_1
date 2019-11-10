@@ -1,0 +1,31 @@
+/* css document */
+
+<style>
+/* footer */
+.footer {
+   position: fixed;
+   left: 0;
+   bottom:0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;}
+*{box-sizing: border-box;}
+.outercontainer{width: 100%;float: left;background-color: #c0c0c0}
+.navbar{width: 100%; background-color: black;height: 10%; float: left;}
+.void{width: 15%;float: left;color: white; height: 10%;}
+.yourname{width: 45%;float: left;color: white; height: 10%;font-size: 40px;font-weight: bold;padding: 14;}
+.home{width: 5%;float: left;color: white; height: 10%;padding: 35;}
+.text{width: 5%;float: left;color: white; height: 10%;padding: 35;}
+.list{width: 5%;float: left;color: white; height: 10%;padding: 35;}
+.form{width: 5%;float: left;color: white; height: 10%;padding: 35;}
+.leftbox{width: 15%;float: left;background-color: c0c0c0; height: 100%}
+.middlebox{width:69%;float: left;background-color: white; height: 100%}
+.title{margin-top: 20px;margin-left: 50;
+    margin-bottom: 50;
+    font-size: 35;color: red;}
+.form2{width: 60% ;height: 40%;background-color: pink;float: left;margin-left: 144;
+    margin-bottom: 100;}
+.rightbox{width: 15%;float: left;background-color: c0c0c0;height: 100%}
+.correct{margin-left: 50;margin-top: 20}
+.p{color: green;}
